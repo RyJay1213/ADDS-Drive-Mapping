@@ -2,7 +2,7 @@
 AD DS GPP lab demonstrating automated user network drive mapping and GPO client deployment on Windows 11.
 # Active Directory Automated Drive Mapping Lab
 
-This repository demonstrates the configuration and deployment of Group Policy Preferences (GPP) for automatic network drive mapping in an Active Directory Domain Services (AD DS) environment.
+This repository demonstrates the configuration and deployment of GPP for automatic network drive mapping in an AD DS environment.
 
 ---
 

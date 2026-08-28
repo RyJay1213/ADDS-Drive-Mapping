@@ -1,4 +1,4 @@
-# ADDS-Drive-Mapping
+# aadds-drive-mapping
 AD DS GPP lab demonstrating automated user network drive mapping and GPO client deployment on Windows 11.
 # Active Directory Automated Drive Mapping Lab
 

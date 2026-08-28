@@ -21,7 +21,7 @@ This repository demonstrates the configuration and deployment of Group Policy Pr
 ### 1. Group Policy Link & Security Scope
 The GPO **User Policy - Automatic Drive Mapping** is linked directly to the `lab_objects` Organizational Unit. Security Filtering applies to `Authenticated Users` across the domain hierarchy.
 
-![GPO Management Overview](./1-gpo-management-overview.jpg)
+![GPO Management Overview](./1-gpo-management-overview.png)
 
 ### 2. Group Policy Preferences (GPP) Drive Map Setup
 Drive mappings are configured under **User Configuration > Preferences > Windows Settings > Drive Maps** using the **Update** action to ensure drive states are dynamically reconciled upon user logon.
@@ -31,7 +31,7 @@ Drive mappings are configured under **User Configuration > Preferences > Windows
 * **Label:** `User Homes`
 * **Reconnect Status:** Enabled
 
-![GPP Drive Mapping Configuration](./2-gpp-drive-mapping-config.jpg)
+![GPP Drive Mapping Configuration](./2-gpp-drive-mapping-config.png)
 
 ---
 
@@ -43,7 +43,7 @@ Upon domain logon for user `mscott`, Active Directory automated share provisioni
 * **Share Path:** `\\DC1\UserHomes`
 * **Drive Mapping:** `mscott (\\DC1\UserHomes) (S:)`
 
-![Client Explorer Initial Mapping](./3-client-explorer-initial-mapping.jpg)
+![Client Explorer Initial Mapping](./3-client-explorer-initial-mapping.png)
 
 ### Extended Multi-Drive Deployment
 Following GPO background update (`gpupdate /force`) and user session refresh, additional department shares and preference mappings populate automatically under **Network locations** in File Explorer:

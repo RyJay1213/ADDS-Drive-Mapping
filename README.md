@@ -6,16 +6,6 @@ This repository demonstrates the configuration and deployment of Group Policy Pr
 
 ---
 
-## Technical Overview
-
-* **Domain Name:** `lab.internal`
-* **Domain Controller:** `DC1`
-* **Target GPO:** `User Policy - Automatic Drive Mapping`
-* **Linked Organizational Unit (OU):** `lab_objects`
-* **Client Environment:** Windows 11 Enterprise (Domain-Joined)
-
----
-
 ## Configuration Architecture
 
 ### 1. Group Policy Link & Security Scope

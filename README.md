@@ -6,7 +6,7 @@ This repository demonstrates the configuration and deployment of GPP for automat
 
 ---
 
-## Configuration Architecture
+## Configuration
 
 ### 1. Group Policy Link & Security Scope
 The GPO **User Policy - Automatic Drive Mapping** is linked directly to the `lab_objects` Organizational Unit. Security Filtering applies to `Authenticated Users` across the domain hierarchy.
